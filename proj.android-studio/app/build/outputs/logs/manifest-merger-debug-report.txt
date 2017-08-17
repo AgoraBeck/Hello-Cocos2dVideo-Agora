@@ -1,0 +1,122 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:3:5-38
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:4:5-35
+uses-feature#0x00020000
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:6:5-54
+	android:glEsVersion
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:6:19-51
+uses-permission#android.permission.INTERNET
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:10:5-65
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:10:22-62
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:14:22-65
+application
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:16:5-39:19
+MERGED from [proj.android-studio:libcocos2dx:unspecified] /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/8914cd4b1242119920b64515f5ec2b1acbfe0abf/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/beck/.android/build-cache/e60bc8db824d7c393fe2ac38afb4b9064eef0b31/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/beck/.android/build-cache/ce532c86e01cf171492d6a6eb618ebc4b1fec35f/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/beck/.android/build-cache/15dc0583af5691aec389649902d237c9e5e458a3/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/f7b0a67a50488f2bd391abf5f7ba3787f7c14d82/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:19:9-43
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:17:9-54
+meta-data#android.app.lib_name
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:23:9-25:38
+	android:value
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:24:13-48
+activity#org.cocos2dx.cpp.AppActivity
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:27:9-38:20
+	android:screenOrientation
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:31:13-50
+	android:label
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:30:13-45
+	android:configChanges
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:29:13-74
+	android:theme
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:32:13-71
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:28:13-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:33:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:34:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml:36:27-74
+uses-sdk
+INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [proj.android-studio:libcocos2dx:unspecified] /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/8914cd4b1242119920b64515f5ec2b1acbfe0abf/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/beck/.android/build-cache/e60bc8db824d7c393fe2ac38afb4b9064eef0b31/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/beck/.android/build-cache/ce532c86e01cf171492d6a6eb618ebc4b1fec35f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/beck/.android/build-cache/15dc0583af5691aec389649902d237c9e5e458a3/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/f7b0a67a50488f2bd391abf5f7ba3787f7c14d82/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+		INJECTED from /Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/8914cd4b1242119920b64515f5ec2b1acbfe0abf/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/beck/.android/build-cache/e60bc8db824d7c393fe2ac38afb4b9064eef0b31/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/beck/.android/build-cache/ce532c86e01cf171492d6a6eb618ebc4b1fec35f/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/beck/.android/build-cache/15dc0583af5691aec389649902d237c9e5e458a3/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/beck/.android/build-cache/f7b0a67a50488f2bd391abf5f7ba3787f7c14d82/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:support-v4:26.0.0-alpha1] /Users/beck/.android/build-cache/865aed1895ece1cbcb4653c6abd3867fdea6819a/output/AndroidManifest.xml:26:9-47

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/com.android.vending.expansion.zipfile.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3785cbb057b995cb42463158b1a798fcc78bb3b0">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/com.android.vending.expansion.zipfile_a7c984fcfaa9fa99a6eeca148eda403a083bd42c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="769f000c2940ab43578cd56ffcc81340aad0b182">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_f24af20f173d7bf65834a061acc2844da2f8a772.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/agoracoco2dx/android/agoracoco2dx/build/intermediates/bundles/default/libs/agora-rtc-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c02b9d33bda2771907f24f64a5351f8639202703">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/agora-rtc-sdk_a9285cc63ce4edccea26b9124d05a1cd47b553e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="769f000c2940ab43578cd56ffcc81340aad0b182">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_ec781524384850fbcbaffcf0976cc603ac866c3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ec2f59c9750d6be5d3da35f7f2571d99e9803f6">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/classes_3c6d5a3bc47ad3ff687bd4658a2ec94383742839.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/AgoraGamingSDK/libs/android/AgoraCocos2dx.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a3c69785cce61ea4ff11572a92d1bb79c18343f">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/AgoraCocos2dx_20b0e004ae52e22aa758276aa89879329852013b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ec2f59c9750d6be5d3da35f7f2571d99e9803f6">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/classes_bb5162423b17ede13350acb52a97771a6de667d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/httpclient-4.4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="becf40a1a480be2a5ccb46529dce490f31b516d5">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/httpclient-4.4.1.1_e9251e20ef03ef72e65dd080518f79029b613041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/httpclient-4.4.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="becf40a1a480be2a5ccb46529dce490f31b516d5">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/httpclient-4.4.1.1_f6e45f0f9546282d9664e3f4cbd00c602567c2c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/cocos2d/cocos/platform/android/libcocos2dx/build/intermediates/bundles/default/libs/com.android.vending.expansion.zipfile.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3785cbb057b995cb42463158b1a798fcc78bb3b0">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/com.android.vending.expansion.zipfile_a17a3eeffdd53e287aeba93fde6a39f748ff9d2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/agoracoco2dx/android/agoracoco2dx/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ad4c3d80886355390547561229a30aba87b13e97">
+        <dex dex="/Users/beck/Desktop/Hello-Cocos2d-Agora_1.12/proj.android-studio/app/build/intermediates/pre-dexed/debug/classes_54de08907978d4aaaadbab870620637d570d8b02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/AgoraGamingSDK/libs/android/agora-rtc-sdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="05e496bbb59c911ef6c3c0e04728201cfc22c55d">
+        <dex dex="/Users/beck/Documents/Cocos2d-x/Hello-Cocos2dVideo-Agora/Hello-Cocos2dVideo-Agora/proj.android-studio/app/build/intermediates/pre-dexed/debug/agora-rtc-sdk_8e9c0005a304839c24b20e81bc8142f550a328df.jar" />
+    </item>
+
+</items>
