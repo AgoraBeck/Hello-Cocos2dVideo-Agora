@@ -1,0 +1,4 @@
+AgoraCocos2dx.framework
+AgoraRtcCryptoLoader.framework
+AgoraRtcEngineKit.framework
+libcrypto.a
