@@ -6,7 +6,7 @@
 
     修改cocos2dx源码的一个头文件： 打开cocos2d/cocos/renderer/CCTrianglesCommand.h文件，将TrianglesCommand类中的函数void useMaterial() const;改为virtual void useMaterial() const;
 
-    2. 从https://pan.baidu.com/s/1qYr0RZA 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
+    2. 从https://pan.baidu.com/s/1qYr0RZA， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
 
     3. 填入真实 APP Id.
 
@@ -21,11 +21,11 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1. 联系商务下载 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
-> 注解:   Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。你也可以直接从 Github 下载。
+> 注解:   Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。可直接从 Github 下载。
 
 2. 请确保已满足以下环境要求:
 • Cocos2d 3.14.1 或更高版本
@@ -55,7 +55,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务下载 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
  
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  
@@ -130,7 +130,7 @@
 
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
-> 注解:  Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。你也可以直接从 Github 下载。
+> 注解:   Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。可直接从 Github 下载。
 
 请确保已满足以下环境要求:
 - Cocos2d 3.14.1 或更高版本
@@ -208,12 +208,14 @@
 
 Objective-C
 Cocos2d 项目默认使用 Objective-C 语言，所以只需要引用头文件就可以:
+
 	#include "../AgoraGamingSDK/include/agora_cocos2dx.h"
 	
 #### Swift
 1. 创建桥接文件，取名为: MyAgora-Bridging-Header.h 。
 2. 在桥接文件里引用 AMG SDK:
-  #include "../AgoraGamingSDK/include/agora_cocos2dx.h"
+	#include "../AgoraGamingSDK/include/agora_cocos2dx.h"
+	
 3. 将桥接文件设置为 Objective-C Bridging Header:
 4. 选择当前 Target 。
 5. 选择 Building Settings > Swift Compiler-General，将 Objective-C Bridging Header 设置为 <Target_Name>/MyAgora-Bridging-Header.h 。
