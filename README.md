@@ -211,7 +211,8 @@ Cocos2d 项目默认使用 Objective-C 语言，所以只需要引用头文件�
 	
 #### Swift
 1. 创建桥接文件，取名为: MyAgora-Bridging-Header.h 。
-2. 在桥接文件里引用 AMG SDK:
+2. 在桥接文件里引用 AMG SDK。
+	
 	#include "../AgoraGamingSDK/include/agora_cocos2dx.h"
 	
 3. 将桥接文件设置为 Objective-C Bridging Header:
