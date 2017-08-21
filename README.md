@@ -5,7 +5,7 @@
 
 1. 需要自己下载cocos2d-x-3.14.1，并将其内容放入Demo中的cocos2d下。修改cocos2dx源码的一个头文件： 打开cocos2d/cocos/renderer/CCTrianglesCommand.h文件，将TrianglesCommand类中的函数void useMaterial() const;改为virtual void useMaterial() const;
     
-2. 联系商务，从https://pan.baidu.com/s/1qYr0RZA， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
+2. 联系商务，从 https://pan.baidu.com/s/1mi3K7Io ， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
     
 3. 填入真实 APP Id.
 
@@ -20,7 +20,7 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载]( https://pan.baidu.com/s/1mi3K7Io )最新的SDK 软件包。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
@@ -54,7 +54,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io )最新的SDK 软件包。软件包结构如下:
  
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  
@@ -125,7 +125,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA) 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io) 最新的SDK 软件包。软件包结构如下:
 
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
@@ -164,7 +164,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA) 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io) 最新的SDK 软件包。软件包结构如下:
 
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  
