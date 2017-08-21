@@ -327,10 +327,6 @@ void HelloAgora::onFirstRemoteVideoDecoded(uint32_t uid, int width, int height, 
             sprite->retain();
             this->mRemoteVideoSprites.insert(std::make_pair(uid, sprite));
             rtcEngine->setupRemoteVideoSprite(sprite, uid);
-
-            //==
-            //rtcEngine->enableVideo(false);
-            //==
             
         }
     });
