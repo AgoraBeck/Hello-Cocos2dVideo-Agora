@@ -26,8 +26,6 @@
 		2F1F05E11E729CD300244919 /* TextBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F05DA1E729CD300244919 /* TextBox.png */; };
 		2F1F05E21E729CD300244919 /* TextBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F1F05DA1E729CD300244919 /* TextBox.png */; };
 		2F492EE21E9FA9CD007E4203 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F492EE11E9FA9CD007E4203 /* libresolv.tbd */; };
-		3EACC98F19EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
-		3EACC99019EE6D4300EB3C5E /* res in Resources */ = {isa = PBXBuildFile; fileRef = 3EACC98E19EE6D4300EB3C5E /* res */; };
 		46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
 		46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7619C43A67006E1F66 /* CloseNormal.png */; };
 		46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7719C43A67006E1F66 /* CloseSelected.png */; };
@@ -77,7 +75,7 @@
 		8C405EE81F4011E800CE208B /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C405EE71F4011E800CE208B /* AgoraRtcEngineKit.framework */; };
 		8C405EEC1F4013BA00CE208B /* AgoraCocos2dx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C405EEB1F4013BA00CE208B /* AgoraCocos2dx.framework */; };
 		8C42149D1F42D9BF009E4EE5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42149C1F42D9BF009E4EE5 /* CoreText.framework */; };
-		8CC486D01F45F35A00E139DF /* AgoraCocos2dx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C405EEB1F4013BA00CE208B /* AgoraCocos2dx.framework */; };
+		8CCB533C1F4D6E5800BDEEF7 /* AgoraCocos2dx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCB53381F4D6E5000BDEEF7 /* AgoraCocos2dx.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -166,7 +164,6 @@
 		2F1F05DA1E729CD300244919 /* TextBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextBox.png; sourceTree = "<group>"; };
 		2F1F05F61E72CBF100244919 /* AgoraAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraAudioKit.framework; path = ../AgoraGamingSDK/libs/iOS/AgoraAudioKit.framework; sourceTree = "<group>"; };
 		2F492EE11E9FA9CD007E4203 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libresolv.tbd; sourceTree = DEVELOPER_DIR; };
-		3EACC98E19EE6D4300EB3C5E /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		46880B7619C43A67006E1F66 /* CloseNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseNormal.png; sourceTree = "<group>"; };
 		46880B7719C43A67006E1F66 /* CloseSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseSelected.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
@@ -215,6 +212,26 @@
 		8C405EEB1F4013BA00CE208B /* AgoraCocos2dx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraCocos2dx.framework; path = ../AgoraGamingSDK/libs/ios/AgoraCocos2dx.framework; sourceTree = "<group>"; };
 		8C42149C1F42D9BF009E4EE5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		8C4214A41F42F631009E4EE5 /* AgoraRtcCryptoLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcCryptoLoader.framework; path = ../AgoraGamingSDK/libs/ios/AgoraRtcCryptoLoader.framework; sourceTree = "<group>"; };
+		8CCB53211F4D6E5000BDEEF7 /* agora_cocos2dx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = agora_cocos2dx.h; sourceTree = "<group>"; };
+		8CCB53241F4D6E5000BDEEF7 /* agora-rtc-sdk.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "agora-rtc-sdk.jar"; sourceTree = "<group>"; };
+		8CCB53261F4D6E5000BDEEF7 /* libagora-cocos2dx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libagora-cocos2dx.a"; sourceTree = "<group>"; };
+		8CCB53271F4D6E5000BDEEF7 /* libagora-crypto.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-crypto.so"; sourceTree = "<group>"; };
+		8CCB53281F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-rtc-sdk-jni.so"; sourceTree = "<group>"; };
+		8CCB53291F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libapm-plugin-agora-cocos2dx.so"; sourceTree = "<group>"; };
+		8CCB532B1F4D6E5000BDEEF7 /* libagora-cocos2dx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libagora-cocos2dx.a"; sourceTree = "<group>"; };
+		8CCB532C1F4D6E5000BDEEF7 /* libagora-crypto.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-crypto.so"; sourceTree = "<group>"; };
+		8CCB532D1F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-rtc-sdk-jni.so"; sourceTree = "<group>"; };
+		8CCB532E1F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libapm-plugin-agora-cocos2dx.so"; sourceTree = "<group>"; };
+		8CCB53301F4D6E5000BDEEF7 /* IAgoraMediaEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAgoraMediaEngine.h; sourceTree = "<group>"; };
+		8CCB53311F4D6E5000BDEEF7 /* IAgoraRtcEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAgoraRtcEngine.h; sourceTree = "<group>"; };
+		8CCB53331F4D6E5000BDEEF7 /* libagora-cocos2dx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libagora-cocos2dx.a"; sourceTree = "<group>"; };
+		8CCB53341F4D6E5000BDEEF7 /* libagora-crypto.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-crypto.so"; sourceTree = "<group>"; };
+		8CCB53351F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libagora-rtc-sdk-jni.so"; sourceTree = "<group>"; };
+		8CCB53361F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */ = {isa = PBXFileReference; lastKnownFileType = file; path = "libapm-plugin-agora-cocos2dx.so"; sourceTree = "<group>"; };
+		8CCB53381F4D6E5000BDEEF7 /* AgoraCocos2dx.framework */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = AgoraCocos2dx.framework; sourceTree = "<group>"; };
+		8CCB53391F4D6E5000BDEEF7 /* AgoraRtcCryptoLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcCryptoLoader.framework; sourceTree = "<group>"; };
+		8CCB533A1F4D6E5000BDEEF7 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		8CCB533B1F4D6E5000BDEEF7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -231,7 +248,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC486D01F45F35A00E139DF /* AgoraCocos2dx.framework in Frameworks */,
+				8CCB533C1F4D6E5800BDEEF7 /* AgoraCocos2dx.framework in Frameworks */,
 				8C1E8ACC1F45B4B10060DE94 /* AgoraRtcEngineKit.framework in Frameworks */,
 				8C42149D1F42D9BF009E4EE5 /* CoreText.framework in Frameworks */,
 				8937C2F71EFE52790037B1E9 /* CoreMedia.framework in Frameworks */,
@@ -330,6 +347,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CCB531F1F4D6E5000BDEEF7 /* AgoraGamingSDK */,
 				8C4214A41F42F631009E4EE5 /* AgoraRtcCryptoLoader.framework */,
 				8C42149C1F42D9BF009E4EE5 /* CoreText.framework */,
 				8C405EEB1F4013BA00CE208B /* AgoraCocos2dx.framework */,
@@ -381,7 +399,6 @@
 				2F1F05D91E729CD300244919 /* HelloAgora.png */,
 				2F1F05DA1E729CD300244919 /* TextBox.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
-				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
 			);
@@ -448,6 +465,98 @@
 			name = Icons;
 			path = ios;
 			sourceTree = SOURCE_ROOT;
+		};
+		8CCB531F1F4D6E5000BDEEF7 /* AgoraGamingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53201F4D6E5000BDEEF7 /* include */,
+				8CCB53221F4D6E5000BDEEF7 /* libs */,
+			);
+			name = AgoraGamingSDK;
+			path = ../AgoraGamingSDK;
+			sourceTree = "<group>";
+		};
+		8CCB53201F4D6E5000BDEEF7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53211F4D6E5000BDEEF7 /* agora_cocos2dx.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8CCB53221F4D6E5000BDEEF7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53231F4D6E5000BDEEF7 /* android */,
+				8CCB53371F4D6E5000BDEEF7 /* ios */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		8CCB53231F4D6E5000BDEEF7 /* android */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53241F4D6E5000BDEEF7 /* agora-rtc-sdk.jar */,
+				8CCB53251F4D6E5000BDEEF7 /* arm64-v8a */,
+				8CCB532A1F4D6E5000BDEEF7 /* armeabi-v7a */,
+				8CCB532F1F4D6E5000BDEEF7 /* include */,
+				8CCB53321F4D6E5000BDEEF7 /* x86 */,
+			);
+			path = android;
+			sourceTree = "<group>";
+		};
+		8CCB53251F4D6E5000BDEEF7 /* arm64-v8a */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53261F4D6E5000BDEEF7 /* libagora-cocos2dx.a */,
+				8CCB53271F4D6E5000BDEEF7 /* libagora-crypto.so */,
+				8CCB53281F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */,
+				8CCB53291F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */,
+			);
+			path = "arm64-v8a";
+			sourceTree = "<group>";
+		};
+		8CCB532A1F4D6E5000BDEEF7 /* armeabi-v7a */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB532B1F4D6E5000BDEEF7 /* libagora-cocos2dx.a */,
+				8CCB532C1F4D6E5000BDEEF7 /* libagora-crypto.so */,
+				8CCB532D1F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */,
+				8CCB532E1F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */,
+			);
+			path = "armeabi-v7a";
+			sourceTree = "<group>";
+		};
+		8CCB532F1F4D6E5000BDEEF7 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53301F4D6E5000BDEEF7 /* IAgoraMediaEngine.h */,
+				8CCB53311F4D6E5000BDEEF7 /* IAgoraRtcEngine.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8CCB53321F4D6E5000BDEEF7 /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53331F4D6E5000BDEEF7 /* libagora-cocos2dx.a */,
+				8CCB53341F4D6E5000BDEEF7 /* libagora-crypto.so */,
+				8CCB53351F4D6E5000BDEEF7 /* libagora-rtc-sdk-jni.so */,
+				8CCB53361F4D6E5000BDEEF7 /* libapm-plugin-agora-cocos2dx.so */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		8CCB53371F4D6E5000BDEEF7 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				8CCB53381F4D6E5000BDEEF7 /* AgoraCocos2dx.framework */,
+				8CCB53391F4D6E5000BDEEF7 /* AgoraRtcCryptoLoader.framework */,
+				8CCB533A1F4D6E5000BDEEF7 /* AgoraRtcEngineKit.framework */,
+				8CCB533B1F4D6E5000BDEEF7 /* libcrypto.a */,
+			);
+			path = ios;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -586,7 +695,6 @@
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				2F1F05E11E729CD300244919 /* TextBox.png in Resources */,
 				2F1F05DB1E729CD300244919 /* Button.png in Resources */,
-				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				2F1F05DF1E729CD300244919 /* HelloAgora.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 			);
@@ -598,7 +706,6 @@
 			files = (
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				2F1F05DE1E729CD300244919 /* ButtonPressed.png in Resources */,
-				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
