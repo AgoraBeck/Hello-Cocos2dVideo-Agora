@@ -104,12 +104,19 @@
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/Android_xml.png)
 
   
-### 步骤 5: 混淆代码
+### 步骤 5: 混淆代码（可选项）
 当在混淆代码时，请添加以下代码:
 	-keep class io.agora.**{*;}
 	
 ### 步骤 6: 调用 API
 请根据 agora_cocos2dx.h 中API 实现所需功能。
+
+### 步骤 7： ndk-build 
+点击Android-studio下面状态的“terminal”，进入终端。 执行:
+ 
+ cd app/jni;ndk-build；编译c++文件。  
+ 
+其中ndk-build版本为：android-ndk-r14b 
 
 
 ----
