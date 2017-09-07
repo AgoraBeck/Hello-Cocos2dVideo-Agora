@@ -27,7 +27,7 @@
 > 注解:   Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。可直接从 Github 下载。
 
 2. 请确保已满足以下环境要求:
-• Cocos2d 3.14.1 或更高版本
+• Cocos2d 3.14.1 版本
 • Android Studio 2.0 或更高版本
 • 两部或多部支持音频功能的 Android 真机(4.0 或更高版本)
 • 一个 App ID， 详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)。
@@ -66,7 +66,9 @@
 - 支持音频功能的 Android 真机(4.0 或更高版本)
 - 一个 App ID，详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)。
 
-- Cocos2d-x-3.14.1或者更高版本。
+- Cocos2d-x-3.14.1版本。
+-ndk-build使用android-ndk-r14b/ndk-build，适配Cocos2d-x-3.14.1。
+
 ###  步骤 2: 新建项目
 新建一个 Cocos2d 项目。如有需要，请参考[这里](http://www.cocos2d-x.org/wiki/How_to_Start_A_New_Cocos2D-X_Game) 。 如果已经有了项目，请跳过该步骤。
 
