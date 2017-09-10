@@ -35,7 +35,7 @@
 ### 步骤 2: 编译代码示例
 	
 1. 用 Android Studio 打开项目 proj.android-studio 。
-2. 修改 app/src/org/cocos2d/cpp/AGApplication.java 当中的 appId。
+2. 修改 app/src/org/cocos2d/cpp/AppActivity.java 当中的 appId。
 3. 连接好真机，点击 Run 按钮编译代码示例。
 	
 ### 步骤 3: 演示游戏语音
