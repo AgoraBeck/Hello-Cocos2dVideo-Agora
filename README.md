@@ -97,11 +97,14 @@
 	
 	### 步骤 4: 添加权限
 	添加必要权限，例如:
-	• android.permission.INTERNET
-	• android.permission.RECORD_AUDIO
-	• android.permission.MODIFY_AUDIO_SETTINGS
-	• android.permission.ACCESS_NETWORK_STATE
-	• android.permission.BLUETOOTH
+   - android.permission.INTERNET
+   - android.permission.CHANGE_NETWORK_STATE
+   - android.permission.CHANGE_WIFI_STATE
+   - android.permission.ACCESS_NETWORK_STATE 
+   - android.permission.ACCESS_WIFI_STATE 
+   - android.permission.MODIFY_AUDIO_SETTINGS  
+   - android.permission.RECORD_AUDIO
+   - android.permission.CAMERA
 	
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/Android_xml.png)
 
