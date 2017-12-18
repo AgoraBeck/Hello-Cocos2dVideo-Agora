@@ -27,10 +27,11 @@
 > 注解:   Hello-Cocos2dVideo-Agora 即为本文需要使用的代码示例。可直接从 Github 下载。
 
 2. 请确保已满足以下环境要求:
-• Cocos2d 3.14.1 版本
-• Android Studio 2.0 或更高版本
-• 两部或多部支持音频功能的 Android 真机(4.0 或更高版本)
-• 一个 App ID， 详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)。
+- Cocos2d 3.14.1 版本
+- Android Studio 2.0 或更高版本
+- 两部或多部支持音频功能的 Android 真机(4.0 或更高版本)
+- 一个 App ID， 详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)
+- ndk-build使用：android-ndk-r14b/ndk-build，适配Cocos2d 3.14.1 版本。
 
 ### 步骤 2: 编译代码示例
 	
@@ -97,14 +98,14 @@
 	
 	### 步骤 4: 添加权限
 	添加必要权限，例如:
-   - android.permission.INTERNET
-   - android.permission.CHANGE_NETWORK_STATE
-   - android.permission.CHANGE_WIFI_STATE
-   - android.permission.ACCESS_NETWORK_STATE 
-   - android.permission.ACCESS_WIFI_STATE 
-   - android.permission.MODIFY_AUDIO_SETTINGS  
-   - android.permission.RECORD_AUDIO
-   - android.permission.CAMERA
+	- android.permission.INTERNET
+   	- android.permission.CHANGE_NETWORK_STATE
+   	- android.permission.CHANGE_WIFI_STATE
+   	- android.permission.ACCESS_NETWORK_STATE 
+	- android.permission.ACCESS_WIFI_STATE 
+   	- android.permission.MODIFY_AUDIO_SETTINGS  
+   	- android.permission.RECORD_AUDIO
+   	- android.permission.CAMERA
 	
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/Android_xml.png)
 
@@ -188,7 +189,7 @@
 - Xcode 8.0 或更高版本
 - 支持音频功能的 iOS 真机(9.0 或更高版本)
 - 一个 App ID，详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)。
-- Cocos2d-x-3.14.1或者更高版本。
+- Cocos2d-x-3.14.1版本。
 
 ### 步骤 2: 新建项目
 
