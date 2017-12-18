@@ -5,7 +5,7 @@
 
 1. 需要自己下载cocos2d-x-3.14.1，并将其内容放入Demo中的cocos2d下。修改cocos2dx源码的一个头文件： 打开cocos2d/cocos/renderer/CCTrianglesCommand.h文件，将TrianglesCommand类中的函数void useMaterial() const;改为virtual void useMaterial() const;
     
-2. 联系商务，从https://pan.baidu.com/s/1qYr0RZA， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
+2. 联系商务，从 https://pan.baidu.com/s/1mi3K7Io ， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
     
 3. 填入真实 APP Id.
 
@@ -20,7 +20,7 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载]( http://pan.baidu.com/s/1mhPowre )最新的SDK 软件包。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
@@ -55,7 +55,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io )最新的SDK 软件包。软件包结构如下:
  
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  
@@ -67,7 +67,9 @@
 - 支持音频功能的 Android 真机(4.0 或更高版本)
 - 一个 App ID，详见 [获取App ID](https://docs.agora.io/cn/game_1.1/user_guide/Component_and_Others/Dynamic_Key_User_Guide.html#get-app-id)。
 
-- Cocos2d-x-3.14.1或者更高版本。
+- Cocos2d-x-3.14.1版本。
+-ndk-build使用android-ndk-r14b/ndk-build，适配Cocos2d-x-3.14.1。
+
 ###  步骤 2: 新建项目
 新建一个 Cocos2d 项目。如有需要，请参考[这里](http://www.cocos2d-x.org/wiki/How_to_Start_A_New_Cocos2D-X_Game) 。 如果已经有了项目，请跳过该步骤。
 
@@ -108,12 +110,19 @@
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/Android_xml.png)
 
   
-### 步骤 5: 混淆代码
+### 步骤 5: 混淆代码（可选项）
 当在混淆代码时，请添加以下代码:
 	-keep class io.agora.**{*;}
 	
 ### 步骤 6: 调用 API
 请根据 agora_cocos2dx.h 中API 实现所需功能。
+
+### 步骤 7： ndk-build 
+点击Android-studio下面状态的“terminal”，进入终端。 执行:
+ 
+ cd app/jni;ndk-build；编译c++文件。  
+ 
+其中ndk-build版本为：android-ndk-r14b 
 
 
 ----
@@ -129,7 +138,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA) 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io) 最新的SDK 软件包。软件包结构如下:
 
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
@@ -168,7 +177,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1qYr0RZA) 最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io) 最新的SDK 软件包。软件包结构如下:
 
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  

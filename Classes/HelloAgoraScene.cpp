@@ -179,14 +179,14 @@ void HelloAgora::onJoinChannelClicked()
     if (mChannelEditBox == nullptr || ::strlen(mChannelEditBox->getText()) == 0) {
         return;
     }
-    CCLOG("[General C++]:onJoinChannelClicked ");
 
+    CCLOG("[General C++]:onJoinChannelClicked ");
     auto rtcEngine = AgoraRtcEngineForGaming_getInstance();
-    rtcEngine->setChannelProfile(CHANNEL_PROFILE_GAME_FREE_MODE);
+    rtcEngine->setChannelProfile(CHANNEL_PROFILE_LIVE_BROADCASTING);
+    rtcEngine->setClientRole(CLIENT_ROLE_BROADCASTER);
     rtcEngine->enableVideo(true);
     //rtcEngine->setVideoProfile(agora::rtc::cocos2dx::VIDEOPROFILE_DEFAULT, false);
     rtcEngine->setVideoProfile(agora::rtc::cocos2dx::VIDEOPROFILE_360P_6, false);
-     //rtcEngine->setVideoProfile(agora::rtc::cocos2dx::VIDEOPROFILE_480P_6, false);
     rtcEngine->joinChannel(mChannelEditBox->getText(), "Cocos2d", 0);
 }
 
@@ -232,7 +232,6 @@ void HelloAgora::onJoinChannelSuccess(const char* channel, uid_t uid, int elapse
             rtcEngine->setupLocalVideoSprite(this->mLocalVideoSprite);
             this->addChild(this->mLocalVideoSprite);
         }
-    
     });
 }
 
@@ -313,6 +312,7 @@ void HelloAgora::onFirstLocalVideoFrame(uint32_t width, int height, int elapsed)
 }
 
 void HelloAgora::onFirstRemoteVideoDecoded(uint32_t uid, int width, int height, int elapsed)  {
+
     CCLOG("[General C++]:onFirstRemoteVideoDecoded uid:%d, width:%d height:%d", uid, width, height);
     Director::getInstance()->getScheduler()->performFunctionInCocosThread([&, this, uid] {
         std::map<uint32_t, Sprite*>::iterator it = this->mRemoteVideoSprites.find(uid);
@@ -327,11 +327,6 @@ void HelloAgora::onFirstRemoteVideoDecoded(uint32_t uid, int width, int height, 
             sprite->retain();
             this->mRemoteVideoSprites.insert(std::make_pair(uid, sprite));
             rtcEngine->setupRemoteVideoSprite(sprite, uid);
-
-            //==
-            //rtcEngine->enableVideo(false);
-            //==
-            
         }
     });
 }
