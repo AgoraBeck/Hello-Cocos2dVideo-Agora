@@ -20,7 +20,7 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1. 联系商务[下载]( https://pan.baidu.com/s/1mi3K7Io )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载]( http://pan.baidu.com/s/1mhPowre )最新的SDK 软件包。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 

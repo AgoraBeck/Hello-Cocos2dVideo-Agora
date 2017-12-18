@@ -29,8 +29,8 @@
 #import "RootViewController.h"
 
 #import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
-static const char *appId = "YOUR APP ID";
-#include "../AgoraGamingSDK/include/agora_cocos2dx.h"
+static const char *appId = "Your App ID";
+#include "../../AgoraGamingSDK/include/agora_cocos2dx.h"
 
 @implementation AppController
 
