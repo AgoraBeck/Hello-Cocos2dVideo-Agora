@@ -5,7 +5,7 @@
 
 1. 需要自己下载cocos2d-x-3.14.1，并将其内容放入Demo中的cocos2d下。修改cocos2dx源码的一个头文件： 打开cocos2d/cocos/renderer/CCTrianglesCommand.h文件，将TrianglesCommand类中的函数void useMaterial() const;改为virtual void useMaterial() const;
     
-2. 联系商务，从https://pan.baidu.com/s/1mhPowre ， 下载SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
+2. 联系商务[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
     
 3. 填入真实 APP Id.
 
@@ -20,7 +20,7 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1. 联系商务[下载]( http://pan.baidu.com/s/1mhPowre )最新的SDK 软件包。软件包结构如下:
+1.联系商务[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK并解压。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
@@ -55,7 +55,7 @@
 
 ### 步骤 1: 准备环境
 
-1. 联系商务[下载](https://pan.baidu.com/s/1mi3K7Io )最新的SDK 软件包。软件包结构如下:
+1. 联系商务[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK并解压。软件包结构如下:
  
  ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
  
@@ -85,7 +85,7 @@
 
 - a. 在 proj.android-studio/app/build.gradle 当中 sourceSets.main 处添加以下语句: 
 
-  jniLibs.srcDirs = ["libs", "../../AgoraGamingSDK/libs/Android"]
+  jniLibs.srcDirs = ["libs", "../../AgoraGamingSDK/libs/android"]
 
 - 或者通过 Android Studio 图形化界面 Project Structure 也可以完成: 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/Android_gradle.png)
@@ -199,11 +199,16 @@
 1. 在项目根目录下创建一个文件夹，例如: AgoraGamingSDK。
 2. 将 include 和 libs 文件夹拷贝到 AgoraGamingSDK 里。
 3. 添加 .framework 文件:
-		a. 选中当前 Target 。
-		b. 选择 Build Phases > Link Binary With Libraries 。
-		c. 点击 +，然后 Add Other...:
-		d. 选择 AgoraAudioKit.framework 。
-		e. 添加以下必须的系统库:
+
+	a. 选中当前 Target 。
+	
+	b. 选择 Build Phases > Link Binary With Libraries 。
+
+	c. 点击 +，然后 Add Other...:
+	
+	d. 选择 AgoraAudioKit.framework 。
+
+	e. 添加以下必须的系统库:
 	
 	![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/iOS_framework.png)
  

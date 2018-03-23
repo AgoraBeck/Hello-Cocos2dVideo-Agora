@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "25.0.2"
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
 
     defaultConfig {
         applicationId "io.agora.gaming.cocos2d"
@@ -10,6 +10,10 @@ android {
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
+
+        ndk {
+            abiFilters 'armeabi-v7a' //'x86 ',  'arm64-v8a'
+        }
     }
 
     sourceSets.main {
@@ -49,13 +53,13 @@ android {
         }
 
     }
+
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
     compile fileTree(include: ['*.jar'], dir: '../../AgoraGamingSDK/libs/android')
     compile project(':libcocos2dx')
-    compile 'com.android.support:support-v4:26.0.0-alpha1'
+    compile 'com.android.support:support-v4:25.0.0'
 }
 
 task cleanAssets(type: Delete) {
@@ -70,19 +74,19 @@ clean.dependsOn cleanAssets
 preBuild.dependsOn copyAssets
 
 
-void libsOutput(String variant) {
-    println("libsOutput" +  variant.capitalize())
-    project.copy {
-
-        from("obj/local") {
-            include('*/libagora-cocos2dx.a')
-        }
-        from("libs") {
-            include('*/libapm-plugin-agora-cocos2dx.so')
-        }
-
-        into('../../AgoraGamingSDK/libs/android/')
-    }
+//void libsOutput(String variant) {
+//    println("libsOutput" +  variant.capitalize())
+//    project.copy {
+//
+//        from("obj/local") {
+//            include('*/libagora-cocos2dx.a')
+//        }
+//        from("libs") {
+//            include('*/libapm-plugin-agora-cocos2dx.so')
+//        }
+//
+//        into('../../AgoraGamingSDK/libs/android/')
+//    }
 
 	/*
 
@@ -102,7 +106,7 @@ void libsOutput(String variant) {
     }
 
 	*/
-}
+//}
 
 //tasks.whenTaskAdded { t ->
 //    if (t.name == "assembleDebug") {

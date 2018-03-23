@@ -25,27 +25,30 @@
 package org.cocos2dx.cpp;
 import org.cocos2dx.lib.Cocos2dxActivity;
 import io.agora.agoracoco2dx.AgoraCoco2dx;
+
+import android.Manifest;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageInfo;
+import android.widget.Toast;
 
 
 public class AppActivity extends Cocos2dxActivity {
-	private String TAG = "beck";
+	private String TAG = "Cocos2d-video";
 	private int targetSdkVersion = 0;
-	private static final int PERMISSION_REQ_ID_RECORD_AUDIO  = 22;
-	private static final int PERMISSION_REQ_ID_CAMERA  = 23;
+	private static final int REQUEST_CODE = 200;
 
-	private static final String appId = "YOUR APP ID";
+	private static final String appId = #YOUR APP ID#
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-
 		AgoraCoco2dx rtcEngine = AgoraCoco2dx.getInstance();
+		super.onCreate(savedInstanceState);
 		rtcEngine.init(getApplicationContext(), appId);
-
 
 		try {
 			final PackageInfo info = getPackageManager().getPackageInfo(getPackageName(), 0);
@@ -55,6 +58,43 @@ public class AppActivity extends Cocos2dxActivity {
 			e.printStackTrace();
 		}
 
+		if ((ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED)) {
+			if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+				ActivityCompat.requestPermissions(this,
+						new String[]{
+								Manifest.permission.RECORD_AUDIO,
+								Manifest.permission.CAMERA
+						}, REQUEST_CODE);
 
+			}else{
+				ActivityCompat.requestPermissions(this,
+						new String[]{
+								Manifest.permission.RECORD_AUDIO
+						}, REQUEST_CODE);
+			}
+		}
+		else if(ContextCompat.checkSelfPermission(this, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) {
+			if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+				ActivityCompat.requestPermissions(this,
+						new String[]{
+								Manifest.permission.CAMERA
+						}, REQUEST_CODE);
+			}
+		}
+
+	}
+
+	@Override
+	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+		if (requestCode == REQUEST_CODE) {
+			if (grantResults.length == 2 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+				Toast.makeText(this, "Record， CAMERA not Permitted !", Toast.LENGTH_SHORT).show();
+			}
+			else if(grantResults.length == 1 && grantResults[0] != PackageManager.PERMISSION_GRANTED) {
+				Toast.makeText(this,  permissions[0] + "not Permitted !", Toast.LENGTH_SHORT).show();
+			}
+		} else {
+			super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		}
 	}
 }

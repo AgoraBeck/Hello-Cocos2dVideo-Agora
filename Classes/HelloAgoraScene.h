@@ -56,6 +56,7 @@ private:
     virtual void onVideoStopped();
     virtual void onJoinChannelClicked();
     virtual void onLeaveChannelClicked();
+    virtual void onAudioVolumeIndication(const AudioVolumeInfo* speakers, unsigned int speakerNumber, int totalVolume);
 
 public:
     void updateMsgContent(const std::string& msg);

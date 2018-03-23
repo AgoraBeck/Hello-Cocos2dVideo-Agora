@@ -184,9 +184,10 @@ void HelloAgora::onJoinChannelClicked()
     auto rtcEngine = AgoraRtcEngineForGaming_getInstance();
     rtcEngine->setChannelProfile(CHANNEL_PROFILE_LIVE_BROADCASTING);
     rtcEngine->setClientRole(CLIENT_ROLE_BROADCASTER);
-    rtcEngine->enableVideo(true);
+    rtcEngine->enableVideo();
     //rtcEngine->setVideoProfile(agora::rtc::cocos2dx::VIDEOPROFILE_DEFAULT, false);
     rtcEngine->setVideoProfile(agora::rtc::cocos2dx::VIDEOPROFILE_360P_6, false);
+    rtcEngine->enableAudioVolumeIndication(800, 3);
     rtcEngine->joinChannel(mChannelEditBox->getText(), "Cocos2d", 0);
 }
 
@@ -350,3 +351,16 @@ void HelloAgora::onVideoStopped(){
         }
     });
 }
+
+
+
+void HelloAgora::onAudioVolumeIndication(const AudioVolumeInfo* speakers, unsigned int speakerNumber, int totalVolume)
+{
+    CCLOG("[General C++]:onAudioVolumeIndication, speakerNumber :%d, totalVolume: %d",speakerNumber,  totalVolume);
+    if (NULL != speakers) {
+        for (int i = 0; i < speakerNumber; ++i) {
+            CCLOG("[General C++]:onAudioVolumeIndication, uid :%d, volume: %d", (speakers[i].uid&0xffffffffL), speakers[i].volume);
+        }
+    }
+}
+

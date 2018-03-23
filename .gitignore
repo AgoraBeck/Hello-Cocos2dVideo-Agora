@@ -156,3 +156,6 @@ tests/cpp-empty-test/proj.tizen/res/
 tests/cpp-tests/proj.tizen/res/
 tests/lua-empty-test/project/proj.tizen/res/
 tests/lua-tests/project/proj.tizen/res/
+proj.android-studio/app/build/*
+proj.android-studio/app/libs/*
+proj.android-studio/build/*

@@ -76,6 +76,8 @@
 		8C405EEC1F4013BA00CE208B /* AgoraCocos2dx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C405EEB1F4013BA00CE208B /* AgoraCocos2dx.framework */; };
 		8C42149D1F42D9BF009E4EE5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C42149C1F42D9BF009E4EE5 /* CoreText.framework */; };
 		8CCB533C1F4D6E5800BDEEF7 /* AgoraCocos2dx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCB53381F4D6E5000BDEEF7 /* AgoraCocos2dx.framework */; };
+		8CF7240520647BA9005DABB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF7240320647BA9005DABB1 /* SystemConfiguration.framework */; };
+		8CF7240720647BC0005DABB1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF7240620647BC0005DABB1 /* CFNetwork.framework */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -232,6 +234,8 @@
 		8CCB53391F4D6E5000BDEEF7 /* AgoraRtcCryptoLoader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcCryptoLoader.framework; sourceTree = "<group>"; };
 		8CCB533A1F4D6E5000BDEEF7 /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
 		8CCB533B1F4D6E5000BDEEF7 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		8CF7240320647BA9005DABB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		8CF7240620647BC0005DABB1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -248,6 +252,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF7240720647BC0005DABB1 /* CFNetwork.framework in Frameworks */,
+				8CF7240520647BA9005DABB1 /* SystemConfiguration.framework in Frameworks */,
 				8CCB533C1F4D6E5800BDEEF7 /* AgoraCocos2dx.framework in Frameworks */,
 				8C1E8ACC1F45B4B10060DE94 /* AgoraRtcEngineKit.framework in Frameworks */,
 				8C42149D1F42D9BF009E4EE5 /* CoreText.framework in Frameworks */,
@@ -347,6 +353,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8CF7240620647BC0005DABB1 /* CFNetwork.framework */,
+				8CF7240320647BA9005DABB1 /* SystemConfiguration.framework */,
 				8CCB531F1F4D6E5000BDEEF7 /* AgoraGamingSDK */,
 				8C4214A41F42F631009E4EE5 /* AgoraRtcCryptoLoader.framework */,
 				8C42149C1F42D9BF009E4EE5 /* CoreText.framework */,
