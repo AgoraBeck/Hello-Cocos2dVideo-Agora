@@ -18,7 +18,7 @@
 - 离开频道
 
 ### 步骤 1: 准备环境
-1.联系商务[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK并解压。软件包结构如下:
+1.[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK，密码：d71u，并解压。软件包结构如下:
 
   ![](https://github.com/AgoraBeck/Cocos2dxResources/blob/master/sdk_list.png)
 
