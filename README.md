@@ -4,7 +4,7 @@
 
 1. 先下载cocos2d-x官网下载cocos2d-x-3.14.1。 并将其改名为cocos2d。 然后替换Demo中的cocos2d文件夹。
 2. 修改cocos2dx源码的一个头文件： 打开cocos2d/cocos/renderer/CCTrianglesCommand.h文件，将TrianglesCommand类中的函数void useMaterial() const;改为virtual void useMaterial() const;
-3. 联系商务[下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)最新的SDK并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
+3. [下载](https://pan.baidu.com/s/1wfLqXX1zmYRFyUMPBYZrqg)SDK,密码：d71u，并解压。 将解压文件内容，放到Demo中AgoraGamingSDK下。 
 4. 填入真实 APP Id.
 5. 编译. 
 
